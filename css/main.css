@@ -1,0 +1,520 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Noto+Serif:ital,wght@1,700&display=swap');
+/*GENERAL STYLES*/
+html {
+	 box-sizing: border-box;
+}
+*,*::before, *::after {
+	box-sizing: inherit;
+}
+*{
+    margin:0;padding:0;
+}
+body{
+  background-image: url("../images/Background-Image.jpg");	
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: 1200px 1800px;
+ 	background-color: black;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  font-family: 'Lato';
+  font-weight: normal;
+	line-height: 1.5;
+}
+h1,h2,h3{
+	font-weight: normal;
+}
+.menu li a:hover{
+	font-weight: bold;
+	background-color: white;
+}
+img {
+	max-width: 100% !important;
+	height: auto;
+}
+:focus {
+	outline:3px solid white;
+}
+#skip-link{
+	position: absolute;
+	background-color:  #6ad5cb;
+	padding:0.5em 1em;
+	color:black;
+	text-decoration: none;
+	left: -10000px;
+}
+#skip-link:focus {
+	left: 300px;
+	top: 25px;
+}
+#main{
+	overflow: hidden; 
+	height: 1700px;
+	width: 84%;
+}
+#main-menu{
+	width: 16%;
+	height: 1800px;
+	background-color: rgba(48, 47, 45, .5);
+	float: left;
+	color: #6ad5cb;
+}
+#main-menu a{
+	text-decoration: none;
+	color: #6ad5cb;
+}
+#main-menu h2 {
+	margin: 0.6em;
+	font-size: 1.375em
+}
+#main-menu img{
+	margin: 0.875em;
+}
+#main-menu h3 {
+	margin-left: 1em;
+	font-size: 1.0625em;
+}
+.menu li {
+	display: block;
+	list-style-type: none;
+	font-size: 1.25em;
+	padding-left:  3.25em;
+	margin-top: 1.875em;
+}
+.menu li a{
+	color: #6ad5cb;
+	text-decoration: none;
+}
+#main-section{
+	height: 17.1875em;
+	margin-left: 6.5em;
+	margin-top: 5.3125em;
+	
+}
+#main-section h1{
+	color: #6ad5cb;
+	font-size: 1.875em;
+	width: 18.125em;
+	line-height: 1.875em;
+}
+.button_Resume{
+	background-color: #6ad5cb;
+	color: black;
+	top: 3em;
+	right: 6em;
+	position: absolute;
+	width: 5.5em;
+	height: 1.5em;
+	font-size: 2em;
+	border-radius: 0.4em;
+	font-family: 'Lato'; 
+	border: none;
+	padding-left: 1em;
+}
+.button_Resume:hover{
+	border: 1px solid ;
+	cursor: pointer;
+	color: #6ad5cb;
+	background-color: black;
+}
+#about-section{
+  height:17.813em;
+}
+.headings{
+  height: 1.8em;
+	background-color: rgba(106,213,203,0.6);
+	color: black;
+	padding-left: 1em;
+	font-size: 2.5em;
+	font-family: 'noto-serif';
+	font-style: italic;
+	padding-top: 0.2em;
+	font-weight: bold;
+}
+#about-me{
+	height: 11.25em;
+	width: 50.875em;
+	background-color: rgba(106,213,203,0.6);
+	position: relative;
+	left: 6em;
+	top: 2em;
+}
+#about-me h3{
+	font-size: 1.5em;
+	line-height: 2.5em;
+	padding-left: 1.25em;
+}
+#project-section{
+	height: auto;
+	padding-top: 2em;
+}
+#project-1{
+	height:15em;
+}
+#project-2{
+	height:15em;
+}
+.projects{
+	height: 12.5em;
+	width: 31.25em;
+	background-color: rgba(106,213,203,0.8);
+	position: relative;
+	top: 2.0625em;
+	float: right;
+	right: 5em;
+	padding: 1em;
+	line-height: 2.5em;
+}
+#project-2{
+	overflow: visible;
+}
+#contact-section{
+	height: auto;
+	margin-top: 2em;
+}
+.projectimages{
+	width: 15.625em;
+	height: 12.4em;
+	position: relative;
+	left: 4em;
+	top: 2.1em;	
+}
+#contact-section p {
+	font-size: 1.4375em;
+	height: 9em;
+	width: 14.875em;
+	color: #6ad5cb;
+	margin-left: 3.5em;
+	margin-top: 1.5em;
+	line-height: 2em;
+}
+#sidebar-1{
+	float: right;
+	height: 16.25em;
+	width: 27.563em;
+	bottom: 0em;
+	right: 5em;
+	top: -13em;
+	position: relative;
+}
+#sidebar-1 textarea {
+	margin-top: 2em;
+	height: 7.6875em;
+	width: 24.7em;
+	border-radius: 0.8em;
+	border: none;
+	padding: 0.9em;
+	background-color: #a8e3d3;
+	margin-left: 1.2em;
+	font-family: 'Lato';
+}
+#submit-button{
+	width: 4.5em;
+	height: 1.5em;
+	margin-left: 0.8em;
+	margin-top: 1em;
+	border-radius: 0.4em;
+	background-color: #a8e3d3;
+	border: none;
+	font-size: 1.5em;
+	letter-spacing: 1px;
+}
+#submit-button:hover{
+	color: #a8e3d3;
+	background-color: black;
+	border: 1px solid;
+}
+.inputfields{
+	width: 14em;
+	height: 3em;
+	border-radius: 0.8em;
+	border: none;
+	padding: 1em;
+	background-color: #a8e3d3;
+	margin-left: 1.4375em;
+}
+#main-footer{
+	background-color: #a8e3d3;
+	height: 4.25em;
+	overflow: hidden;
+	font-size: 1.5em;
+	text-align: center;
+	letter-spacing: 1px;
+	position: relative;
+}
+#footer-2{
+	position: absolute;
+	left: 11.75em;
+	bottom: 0.5em;
+}
+#footer-1{
+	position: absolute;
+	left: 13.375em;
+}
+#main-footer img{
+	height: 2em;
+	width: 2em;
+	margin-left: 1em;
+	margin-top: 0.3em;
+}
+#main-footer img:hover{
+	border : 1px solid;
+	height: 2.2em;
+	width:	2.2em;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #85877c;
+  opacity: 1; /* Firefox */
+  font-size: 1.5em;
+}
+#header {
+	display: none;
+}
+#header h2{
+	font-size: 0.6em;
+	text-align: center;
+	padding: 0;
+	font-style: normal;
+}
+#header h3{
+	text-align: center;
+	font-size: 0.5em;
+	font-style: normal;
+}
+#main-section img{
+	display: none;
+}
+.HiddenLabels{
+	display:none;
+}
+
+/*MEDIA QUIRIES*/
+/* Tablet styles */
+@media all and (max-width:768px){
+body {
+	font-size: 0.9em;
+	background-position: top;
+	background-repeat: repeat;
+	background-size: 54em 54em;
+}
+#skip-link{
+	position: absolute;
+	background-color:  black;
+	padding:0.5em 1em;
+	color:#6ad5cb;
+	text-decoration: none;
+	left: -10000px;
+}
+#skip-link:focus {
+	left: 20px;
+	top: 18px;
+}
+#main{
+	width: 100%;
+	height: 1513px;
+}
+#main-menu{
+	display: none;
+}
+#header{
+	display: block;
+	position: absolute;
+	width: 100%;
+}
+img {
+	max-width: 100% !important;
+	height: auto;
+}
+#main-section img{
+	display: block;
+	position: relative;
+	top: 2em;
+	left: -4em;
+	width: auto;
+}
+#main-section h1 {
+	color: #6ad5cb;
+	font-size: 1.5em;
+	width: 18.125em;
+	line-height: 1.875em;
+	position: relative;
+	top: -7em;
+	left: 8em;
+}
+.button_Resume{
+	top: 5.3em;
+	right: 3em;
+	width: 4.5em;
+	height: 1.5em;
+	font-size: 1.5em;
+	padding-left: 9px;
+}
+#about-section{
+	height:auto;
+}
+#about-me{
+	width: 82%;
+	height: auto;
+	margin-bottom: 2em;
+	position: relative;
+	left: 5em;
+}
+#about-me h3{
+	font-size: 1.2em;
+  line-height: 2em;
+  padding: 1.5em;
+}
+.projects{
+  height: 10.3em;
+  width: 27.25em;
+  top: 2.0em;
+  right: 4.5em;
+  line-height: 1.7em;
+}
+.projectimages{
+  height: auto;
+  width: 12.9em;
+}
+.inputfields {
+  width: 12em;
+  height: 3em;
+}
+#sidebar-1 textarea {
+	width: 21.3em;
+}
+#submit-button {
+  width: 3.8em;
+}
+#sidebar-1 {
+  right:2em;
+}
+#contact-section p {
+	width: 12.875em;
+	color: white;
+}
+#main{
+	height: auto;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #85877c;
+  opacity: 1; /* Firefox */
+  font-size: 1.3em;
+}
+#footer-1 {
+  left: 11.375em;
+}
+  #footer-2 {
+  left: 9.5em;
+}
+}
+/* Mobile styles */
+@media all and (max-width: 480px) {
+
+body{
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 34em 22em;
+}
+#skip-link:focus {
+	left: 15px;
+	top: 10px;
+}
+#main-section{
+  height: 13em;
+  margin-top: 3.313em;
+}
+#main-section img{
+	left: -5em;
+	width: 8em;
+}
+#main-section h1{
+font-size: 1.1em;
+width: 15.125em;
+line-height: 1.5em;
+top: -6.3em;
+left: 5em;
+color: white;
+}
+.button_Resume{
+  top: 6em;
+  right: 2em;
+  width: 4.2em;
+  height: 1.5em;
+  font-size: 0.98em;
+  padding-left: 5px;
+}
+#about-me{
+	left: 3em;
+}
+.headings{
+	padding-left: 0;
+  font-size: 2em;
+  text-align: center;
+}
+#project-1{
+  height: 22em;
+}
+#project-2{
+  height: 22em;
+}
+.projectimages{
+  width: 9.438em;
+  height: auto;
+	left: 12em;
+	margin-bottom: 2em;
+}
+.projects{
+  right: 3em;
+}
+#project-section{
+  height: 50em;
+}
+#contact-section{
+  height: 32em;
+}
+#contact-section p{
+	font-size: 1.1em;
+	margin-left: 2em;
+	color: white;
+	width: 25.875em;
+}
+#sidebar-1{
+  top: -2em;
+  right: 2em;
+  width: 29.563em;
+}
+.inputfields{
+  width: 14em;
+  height: 2.5em;
+}
+#sidebar-1 textarea{
+  width: 24.7em;
+}
+#submit-button{
+  position: relative;
+  left: 7em;
+}
+::placeholder{ /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #85877c;
+  opacity: 1; /* Firefox */
+  font-size: 1em;
+}
+#footer-1{
+  left: 13.375em;
+}
+#main-footer{
+	height: 50px;
+	font-size: 0.8em;
+}
+#footer-2{
+  left: 11.5em;
+  bottom: 0.3em;
+}
+#project1{
+	margin-top: 0em;
+}
+}
