@@ -373,11 +373,12 @@ img {
   	padding: 1.5em;
 }
 .projects{
-  height: 10em;
-  width: 24.25em;
+  height: 9em;
+  width: 23.25em;
   top: 1.6em;
   right: 4em;
   line-height: 1.4em;
+  padding-top: 15px;
 }
 .projectimages{
   height: auto;
@@ -521,6 +522,80 @@ color: white;
 #project1{
 	margin-top: 0em;
 }
+}
+
+@media all and (max-width: 396px) {
+
+#main-section img{
+	width: 100px;
+	border-radius: 1em;
+}
+	
+#main-section p{
+	font-size: 1em;
+	width: 13.125em;
+	top: -5.9em;
+	left: 4em;
+}
+	
+.button_Resume{
+	top: 5.5em;
+	right: 1.7em;
+}
+
+#about-me{
+	left: 2.45em;
+}
+
+.projectimages{
+	left: 8.9em;
+}
+
+.projects{
+	font-size: 1em;
+	width: 23.25em;
+	top: 1.6em;
+	right: 2.2em;
+}
+
+#contact-section p{
+	width: 20.575em;
+}
+
+#sidebar-1{
+	top: -2em;
+	right: 1.7em;
+	width: 23.563em;
+}
+
+.inputfields{
+	margin: 0;
+	width: 12em;
+	height: 2.5em;
+}
+#UserEmail {
+	margin-left: 1em;
+}
+
+#sidebar-1 textarea{
+	width: 21em;
+	margin-left: 0;
+}
+
+#submit-button{
+	position: relative;
+	left: 5em;
+}
+
+#footer-1{
+	left: 10.175em;
+}
+
+#footer-2{
+	left: 7.5em;
+	bottom: 0.3em;
+}
+
 }
 
 @media all and (max-width: 375px) {
