@@ -524,6 +524,80 @@ color: white;
 }
 }
 
+@media all and (max-width: 414px) {
+
+#main-section img{
+	width: 100px;
+	border-radius: 1em;
+}
+
+#main-section p{
+	font-size: 1em;
+	width: 13.125em;
+	top: -5.9em;
+	left: 4em;
+}
+
+.button_Resume{
+	top: 5.7em;
+	right: 1.7em;
+}
+
+#about-me{
+	left: 3.15em;
+	font-size: 0.8em;
+}
+
+.projectimages{
+	left: 9.9em;
+}
+
+.projects{
+	font-size: 1em;
+	width: 23.25em;
+	top: 1.6em;
+	right: 2.7em;
+}
+#contact-section p{
+	width: 21.575em;
+}
+
+#sidebar-1{
+	top: -2em;
+	right: 2.3em;
+	width: 23.563em;
+}
+
+.inputfields{
+	margin: 0;
+	width: 12em;
+	height: 2.5em;
+}
+
+#sidebar-1 textarea{
+	width: 25.2em;
+	margin-left: 0;
+}
+
+#UserEmail {
+	margin-left: 1em;
+}
+
+#submit-button{
+	position: relative;
+	left: 5em;
+}
+
+#footer-1{
+	left: 10.575em;
+}
+
+#footer-2{
+	left: 8em;
+	bottom: 0.3em;
+}
+}
+
 @media all and (max-width: 396px) {
 
 #main-section img{
@@ -652,7 +726,7 @@ color: white;
 }
 
 #sidebar-1 textarea{
-	width: 21em;
+	width: 25em;
 	margin-left: 0;
 }
 
