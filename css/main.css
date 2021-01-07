@@ -575,7 +575,7 @@ color: white;
 }
 
 #sidebar-1 textarea{
-	width: 25.2em;
+	width: 21.2rem;
 	margin-left: 0;
 }
 
@@ -725,10 +725,6 @@ color: white;
 	margin-left: 1em;
 }
 
-#sidebar-1 textarea{
-	width: 25em;
-	margin-left: 0;
-}
 
 #submit-button{
 	position: relative;
